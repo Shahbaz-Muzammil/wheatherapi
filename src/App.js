@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
 
+
+import Dropdown from './component/Contextjs/dropdown/Dropdown';
+// import Home from './component/Home/Home.js';
+// import { AppProvider } from './component/Contextjs/Context';
+// import Search from './component/Search/Search';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" >
+     {/* <Home/> */}
+     {/* <h1>Shahbaz</h1> */}
+      {/* <Search/>
+     <Search/>
+     <AppProvider/>
+     <AppProvider/>  */}
+     <Dropdown/>
+  
     </div>
   );
 }

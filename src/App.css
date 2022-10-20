@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  /* background-image: url("https://cdn.pixabay.com/photo/2018/05/30/00/24/thunderstorm-3440450_960_720.jpg"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover;  */
+  /* background-size: 100%; */
+  background-color: black;
 }
 
 .App-logo {
